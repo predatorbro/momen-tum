@@ -1,0 +1,36 @@
+@import  "tailwindcss" ;
+@custom-variant dark (&:where(.dark, .dark *));
+/* @theme {
+    }; */
+    
+    
+/* previous */
+/* .dark {
+    --bgDark:  #202123 ;
+   --panelDark:  #2c2f31 ;  
+   --textPrimary:  #eaeaea ; 
+   --textSecondary:  #9ca3af  
+   --accent:  #10a37f ;  
+   --borderDark:  #3f3f46  
+   --bgNodes:  #3a3d42 ;
+   --bgHover:  #45484E ;
+ 
+}  */
+
+
+
+
+
+
+/* new */
+
+.dark {
+    --bgDark: #121212; /* Darker background */
+    --panelDark: #1e1e1e; /* Dark gray panels/containers */
+    --textPrimary: #f0f0f0; /* Bright text for contrast */
+    --textSecondary: #a0a0a0; /* Softer gray text */
+    --accent: #ff5722; /* Vibrant orange accent */
+    --borderDark: #333333; /* Subtle dark border */
+    --bgNodes: #252525; /* Node background */
+    --bgHover: #2e2e2e; /* Hover effect */
+ }
